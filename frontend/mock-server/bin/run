@@ -1,0 +1,5 @@
+#!/bin/sh
+
+docker run -it --rm \
+  --name sap-fsa-mock-server \
+  sap-fsa-mock-server
