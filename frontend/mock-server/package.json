@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Server to test api calls",
   "scripts": {
-    "start": "json-server --watch db.json --port 3003"
+    "start": "json-server --watch db.json --snapshots snapshots --port 3003"
   },
   "license": "ISC",
   "dependencies": {
